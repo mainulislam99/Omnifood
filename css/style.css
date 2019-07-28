@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/*topbar section*/
+.topbar{
+    background: #00867e;
+    height: 80px
+}
+.logo{
+    padding-top: 16px;
+    width: 30%;
+    float: left;
+}
+.manu{
+    width: 70%;
+    float: right;
+}
+.manu ul {
+    list-style: none;
+    padding-top: 29px;
+    margin-left: 196px;
+}
+.manu ul li{
+    display: inline;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.manu ul li a{
+    text-decoration: none;
+    display: inline;
+    padding: 13px;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.6);
+}
+#home .butto{
+    background: #008884;
+    color: #fff;
+}
+.manu ul li a:hover{
+    
+background: #00c29e;
+    
+border-radius: 4px;
+    
+color: #fff;
+}
+.banner{
+    background: url(../image/banner-bg.png) no-repeat;
+    padding: 200px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+.banner h1{
+    color: #fff;
+    font-size: 30px;
+}
+.banner-button{margin-top: 30px;
+    text-transform: uppercase;}
+.banner-button p{
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+.banner-button p:hover{
+    background: #008780;
+}
+#food-fast{
+    padding: 40px;
+    text-align: center;
+    background: #E9E9E9;
+    height: 540px;
+}
+#food-fast .food-fast-content{} 
+#food-fast .food-fast-content h1{
+    text-transform: uppercase;
+    margin-bottom: 47px;
+}
+#food-fast .food-fast-content p{
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 0 39px 0;
+}
+#food-fast .menu{
+    width: 100%;
+
+}
+#food-fast .menu .item{
+    padding: 15px;
+    width: 23%;
+    margin: 1%;
+    background: #FFFFFF;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#food-fast .item .img{
+    margin: 0 auto;
+    width: 50%;
+}
+#food-fast .item .img img{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#food-fast .item h3{
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: #353535;
+}
+#food-fast .item .span{
+    height: 1px;
+    width: 100%;
+    background: #00867e;
+}
+#food-fast .item p{
+    color: #4E4E4E;
+    width: 90%;
+    padding: 10px 0;
+    
+}
+#works{
+    padding: 50px 0;
+}
+#works .text-content{
+    text-align: center;
+}
+#works .text-content h1{
+    text-transform: uppercase;
+} 
+
+#works .box{
+    width: 100%;
+}
+#works .box .mobile{
+    width: 50%;
+    float: left;
+}
+#works .mobile img{
+    float: right;
+    padding: 50px 10px 0 0;
+    width: 39%;
+    margin-bottom: 60px;
+}
+#works .content{
+    float: left;
+    width: 50%;
+    padding: 90px 0 20px 10px;
+    box-sizing: border-box;
+}
+#works .content .item{}
+#works .content .item .item-1{
+    display: inline-block;
+    padding: 20px 0 20px 0;
+}
+#works .item-1 h1{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border: 2px solid #00867e;
+    border-radius: 50px;
+    float: left;
+}
+#works .item-1 p{
+    width: 80%;
+    margin: 0 13%;
+    text-transform: uppercase;
+}
+
+.mobile-icon{
+    width: 80%;
+    
+}
+.mobile-icon .icon{
+    height: 60px;
+    float: left;
+    width: 48%;
+    background: #000;
+    margin: 1%;
+    border-radius: 6px;
+}
+.mobile-icon i{
+    float: left;
+    color: #fff;
+    padding: 20px;
+    font-size: 30px;
+}
+.mobile-icon h5{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 0 0 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.mobile-icon h3{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 18px;
+}
+#cities{
+    padding: 50px 0;
+    background: #E9E9E9;
+    clear: both;
+    height: 460px;
+}
+#cities .text-content{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#cities .cities{
+    width: 100%;
+    padding: 50px 0;
+}
+#cities .cities-item{
+    width: 25%;
+    float: left;
+}
+#cities h3{
+    color: #494949;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+#cities a{
+    display: block;
+    padding: 5px;
+    color:#3B3B3B;
+    text-transform: capitalize;
+    font-size: 14px;
+    text-decoration: none;
+}
+#cities i{
+    color: #00867e;
+    padding-right: 10px;
+}
+#testimonials{
+    padding: 50px 0;
+    background: #008884 url(../image/testimonial-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#testimonials .text-content{
+   
+    color: #fff;
+}
+#testimonials .text-content h1{
+     color: #fff;
+     text-align: center;
+}
+#testimonials .text-content span{
+    color: #fff;
+    font-size: 40px;
+}
+#testimonials .text-content p{
+    color: #fff;;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22x;
+    width: 50%;
+    margin: 0 auto;
+}
+#testimonials .testimonials-profile{
+    width:300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#testimonials .testimonials-profile img{
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 20px;
+   
+}
+#testimonials .testimonials-profile h3{
+    text-transform: capitalize;
+    font-size:18px;
+    color: #fff;
+    padding: 30px;
+    margin-left: 100px;
+}
+/*rate plan*/
+#plans{
+    padding: 50px 0;
+    background: #E9E9E9;
+    height: 430px;
+}
+#plans .text-content{
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+#plans .text-contact h1{
+    
+}
+#plans .plans{
+    width: 100%;
+}
+#plans .plans .plans-item{
+    padding: 15px;
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 0 1.5%;
+    transition: all .5s;
+    text-transform: uppercase;
+    background: #fff;
+}
+#plans .plans .plans-item:hover{
+    background: #008884;
+    color: #fff;
+}
+/*#plans .plans .plans-item:hover a{
+    color: #fff;*/
+}
+#plans .plans .plans-item h3{
+    font-size: 22px;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-weight: 400;
+}
+#plans .plans .plans-item h2{
+     font-size: 25px;
+     font-weight: 300;
+     margin-bottom: 30px;
+     margin-top: 19px;
+}
+#plans .plans .plans-item .span{
+    height: 1px;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+
+#plans .plans .plans-item a{
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+#plans .plans .plans-item a:hover{
+    color: #fff;
+}
+#plans .plans .plans-item i{
+}
+#plans button{
+    margin: 40px 0;
+    padding: 10px 20px;
+    border: 2px solid #008884;
+    background: transparent;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: .5s;
+}
+#plans button:hover{
+    background: #008884 
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+}
+#plans .plans .plans-item:hover button{
+    background: #008884;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+}
+/*form section*/
+#connected{
+    /* width: 35%; */
+    /* margin: 0 auto; */
+    padding: 30px 0;
+}
+#connected .text-content{
+    text-align: center;
+}
+#connected .text-content h1{
+    text-transform: uppercase;
+}
+#connected form{
+    text-align: center;
+    height: 255px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+#connected form input{
+    /* display: block; */
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    background: #E9E9E9;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #797979;
+    box-sizing: border-box;
+}
+#connected form placeholder{
+    
+}
+#connected form select{
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #E9E9E9;
+    font-size: 18px;
+    color: #797979;
+    border: none;
+}
+#connected form button{
+    margin-top: 10px;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 6px;
+    transition: all .5s;
+}
+#connected form button:hover{border: 1px solid #008884;}
+/*footer section */
+#office{
+    padding: 70px 0;
+    background: url(../image/footer-bg.png) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 474px;
+}
+#office .map{
+    width: 45%;
+    float: left;
+    position: relative;
+    margin-right: 5%;
+}
+#office .map img{
+    width: 100%;
+}
+#office .map i{
+    color: #fff;
+    position: absolute;
+    bottom: 30px;
+    left: 23%;
+    font-size: 25px;
+}
+#office .content{
+    padding: 100px 0;
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+}
+#office .content h1{
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+/*#office .content h1 i{
+    color: #fff;
+}
+*/#office .content p{
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-left: 35px;
+}
+#office .content h2{
+    margin-left: 35px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 60px 0 0 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+#office .content ul{
+    margin-left: 35px;
+    list-style: none;
+}
+#office .content ul li{
+    float: left;
+}
+#office .content ul li a{
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+#office .content ul li a i{
+}
