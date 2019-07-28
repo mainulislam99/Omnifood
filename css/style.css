@@ -55,7 +55,7 @@ border-radius: 4px;
 color: #fff;
 }
 .banner{
-    background: url(../image/banner-bg.png) no-repeat;
+    background: linear-gradient(rgba(55, 43, 25, 0.7),rgba(0, 0, 0, 0.7)),url(../image/banner-bg.png) no-repeat;
     padding: 200px;
     text-align: center;
     background-position: center;
@@ -63,7 +63,7 @@ color: #fff;
 }
 .banner h1{
     color: #fff;
-    font-size: 30px;
+    font-size: 45px;
 }
 .banner-button{margin-top: 30px;
     text-transform: uppercase;}
@@ -87,12 +87,13 @@ color: #fff;
 #food-fast .food-fast-content{} 
 #food-fast .food-fast-content h1{
     text-transform: uppercase;
-    margin-bottom: 47px;
+    margin-bottom: 20px;
+    font-size: 30px;
 }
 #food-fast .food-fast-content p{
     width: 60%;
     margin: 0 auto;
-    padding: 0 0 39px 0;
+    padding: 0 0 40px 0;
 }
 #food-fast .menu{
     width: 100%;
@@ -140,6 +141,7 @@ color: #fff;
 }
 #works .text-content h1{
     text-transform: uppercase;
+    font-size: 30px;
 } 
 
 #works .box{
@@ -251,7 +253,7 @@ color: #fff;
 }
 #testimonials{
     padding: 50px 0;
-    background: #008884 url(../image/testimonial-bg.png) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../image/testimonial-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
